@@ -1,0 +1,9 @@
+
+Time complexity :- amount of work grows as the input grows. Max times a particular loop is executed. 
+To print a 2D array..its time complexity is O(n)...And not n^2 as Rows x columns = n... and not rows =n and columns =n...thats wrong. Basically it counts the number of steps or operations the computer has to perform to complete the task. 
+Binary search (O(log n))- divides the input. 
+
+
+
+Space complexity :- 
+

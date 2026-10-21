@@ -1,0 +1,12 @@
+Linux-kernel
+
+
+HTTP- port 80, plain text (so man in the middle attack is possible), Certification SSL (unpaid CDN)
+HTTPS- port 443, transfers text thru encryption (SHA 256 algo is used) 
+
+Domain is paid service.
+
+3000 is private port and to prevent it's expose we use NGNIX. NGNIX basically does port mapping. Reverse proxy. 
+Only 80, 443 have to be exposed...if any other port is exposed then the server is hacked. 
+
+Rainbow table
