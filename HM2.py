@@ -1,0 +1,12 @@
+n=1221
+n1=1212
+freq=[0]*10
+while(n!=0):
+    ld=n%10
+    freq[ld]+=1
+    n//=10
+while(n1!=0):
+    ld=n%10
+    freq[ld]-=1
+    n1//=10
+print(freq)
